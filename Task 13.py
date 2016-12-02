@@ -42,3 +42,24 @@ Create_node.addedge('H', 'I')
 Create_node.addedge('I', 'C')
 
 Create_node.printValues()
+
+#PsuedoCode
+# Node
+#  __init__(self,value)
+#     self.value←value
+
+# Graph
+#  __init__(self)
+#     self.dict←{}
+
+#  addnode(self,value)
+#  node←Node(value)
+#  self.dict[nodevalue]←[]
+
+#  addedge(self,value,neighbour)
+#   self.dict[value]append(neighbour)
+#   self.dict[neighbour]append(value)
+#  printvalues(self)
+#   print(self.dict)
+#
+#

@@ -32,6 +32,16 @@ def primenumbercheck():
     
 primenumbercheck()
 
+#PsuedoCode
+#primenumbercheck()
+#nstring←input
+#PrimeOrNotPrime←0
+#n←int(nstring)
+#x←n-1
+#while x >1
+    #if n%x←1
+    #primeornotprime ←prieornotprime+1
+    #else x=x_!
 
 # nstring is the value of n but in string format so user
 #can input whilst we ask a question which is then used by variable n

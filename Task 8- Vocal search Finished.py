@@ -9,3 +9,16 @@ def vocalreduction (word):
 	else:
 		return word[0] + vocalreduction(word[1:])#if theres no illegal letters dont delete, just carry on to next pos
 print(vocalreduction(str(input("input a word "))))
+
+
+#Psuedo code
+#vocalreduction(word)
+#illegalLetters← a,e,i,o,u
+#if length(word)←1 (or < )
+#return word
+#else if any character in illegal letter for any chharacter in word[0]
+#	RETURN vocalreduction(word[1:])
+#	else:
+#		return word[0]+ vocalreduction(word[1:])
+#
+#
